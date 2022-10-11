@@ -21,5 +21,5 @@ def computer_guess(num):
             break
     else:
         print('Congratulations, correct guess!')
-
+print("Let's play a game. Please keep a number in your mind and i will try to guess it! ")
 computer_guess(9)

@@ -6,7 +6,7 @@ computer_choice = 1
 def print_result(winner = "Computer"):
     global computer_score, player_score
     print(f'Computer choice: {computer_choice}\nWinner: {winner}')
-3
+
     if winner == "Computer":
         computer_score += 100
     else:
